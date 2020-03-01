@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Reviews;
+use App\Model\Review;
 use Illuminate\Http\Request;
 
 class ReviewsController extends Controller
@@ -41,10 +41,10 @@ class ReviewsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Model\Reviews  $reviews
+     * @param  \App\Model\Review  $reviews
      * @return \Illuminate\Http\Response
      */
-    public function show(Reviews $reviews)
+    public function show(Review $reviews)
     {
         //
     }
@@ -52,10 +52,10 @@ class ReviewsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Model\Reviews  $reviews
+     * @param  \App\Model\Review  $reviews
      * @return \Illuminate\Http\Response
      */
-    public function edit(Reviews $reviews)
+    public function edit(Review $reviews)
     {
         //
     }
@@ -64,10 +64,10 @@ class ReviewsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Model\Reviews  $reviews
+     * @param  \App\Model\Review  $reviews
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Reviews $reviews)
+    public function update(Request $request, Review $reviews)
     {
         //
     }
@@ -75,10 +75,10 @@ class ReviewsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Model\Reviews  $reviews
+     * @param  \App\Model\Review  $reviews
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Reviews $reviews)
+    public function destroy(Review $reviews)
     {
         //
     }

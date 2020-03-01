@@ -3,10 +3,10 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
 use App\Model\Product;
-use App\Model\Reviews;
+use App\Model\Review;
 use Faker\Generator as Faker;
 
-$factory->define(Reviews::class, function (Faker $faker) {
+$factory->define(Review::class, function (Faker $faker) {
     return [
         'product_id'=>function(){
            return Product::all()->random();
