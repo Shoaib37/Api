@@ -8,7 +8,7 @@ use Faker\Generator as Faker;
 
 $factory->define(Review::class, function (Faker $faker) {
     return [
-        'product_id'=>function(){
+          'product_id'=>function(){
            return Product::all()->random();
         },
         'customer'=>$faker->name,
